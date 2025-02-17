@@ -1,4 +1,4 @@
-#Food Management System
+# Food Management System
 
 A comprehensive web-based application designed to streamline restaurant operations by providing both admin and customer interfaces for efficient food ordering and tracking.
 
