@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+#navbar{
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 100;
+padding: .5rem 5rem;
+box-shadow: 5px 5px 20px rgba(0, 0px, 0px, .5px);
+background: linear-gradient(to right, rgb(241, 233, 240), 
+#000405f7); 
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+}
+
+.logo img {
+  max-height: 60px; /* Ensures the logo fits well in the navbar */
+  width: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the image doesn't get distorted */
+  padding: 5px; /* Adds some spacing inside */
+}
+.navbar-brand{
+    font-size: 60px;
+    font-weight: 800px;
+    color: #f9f871  !important; 
+    background: linear-gradient(to left, rgb(253, 228, 5), 
+    #000405f7); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+}
+#navbarSupportedContent a{
+    color:rgb(247, 239, 239);
+    font-size: 25px;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid aqua;
+}
+.white-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; 
+    background: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}   
+
+.white-button:hover {
+    background: #f7f4ac;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.white-button:active {
+    background: #f0f0f0; 
+    transform: scale(0.98); 
+}
+
+
+body, html {
+    
+    
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #000; 
+  }
+  
+  
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('bg1.jpg') no-repeat center center/cover; 
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+  .head {
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    letter-spacing: 8px;
+    color: #f9f871; 
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); 
+  }
+  
+ 
+  #flex {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #flex .word {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+
+  #flex .word:hover {
+    transform: scale(1.1);
+    background: #f9f871; 
+    color: #000;
+  }
+  
+
+  #form-container {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  #form-container h2 {
+    color: #f9f871;
+    margin-bottom: 20px;
+  }
+  
+  #form-container input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+  }
+  
+  #form-container button {
+    width: 100%;
+    padding: 10px 15px;
+    background: #f9f871;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #form-container button:hover {
+    background: #ffd700;
+  }
+  
+  #form-container a {
+    display: block;
+    margin-top: 15px;
+    color: #f9f871;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  #form-container a:hover {
+    text-decoration: underline;
+  }
+
+  .basketIcon{
+   
+    color: white;
+
+  }
+  .navbarProfile {
+    position: relative;
+    
+  }
+  
+  
+  .navProfileDropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .navbarProfile:hover .navProfileDropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff4f2;
+    padding: 12px 25px; 
+    border-radius: 4px;
+    border: 1px solid yellow;
+    outline: 2px solid white;
+    list-style: none;
+  }
+  
+  .navProfileDropdown li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .navProfileDropdown img {
+    width: 20px;
+  }
+  
+  .navProfileDropdown li:hover {
+    color: yellow; 
+  }
+  
+  .navProfileDropdown p {
+    color: #000; 
+    margin: 0; 
+    font-size: 14px; 
+  }

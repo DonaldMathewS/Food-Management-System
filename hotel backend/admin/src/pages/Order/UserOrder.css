@@ -1,0 +1,85 @@
+.orderItem{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 30px;
+    border: 1px solid rgb(8, 8, 8) ;
+    background-color: rgb(251, 251, 167);
+    padding: 20px;
+    margin: 30px 20px;
+    font-size: 14px;
+    color: black;
+}
+.orderItemFood ,.orderItemName{
+    font-weight: 600;
+
+     
+}
+.orderItemName{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.orderItemAddress{
+    margin-bottom: 10px;
+}
+.orderItem select{
+    background-color: white;
+    border: 1px solid black;
+    width:max(10vw ,120px) ;
+    padding: 10px;
+    outline: none;
+}
+@media (max-width:1000px) {
+    .orderItem{
+        font-size: 12px;
+        grid-template-columns: 0.5fr 2fr 1fr ;
+        padding: 15px 8px;
+
+    }
+    .orderItem select{
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+    .orderItem img{
+        width: 40px;
+
+    }
+}
+/* Loading Container */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+  }
+  
+  /* Spinner */
+  .loading .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ccc;
+    border-top: 5px solid #007bff; /* Blue color for the spinner */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Spinner Animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Loading Text */
+  .loading p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
