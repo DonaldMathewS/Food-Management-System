@@ -64,5 +64,5 @@ Contributing
 We welcome contributions! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to our coding standards and includes relevant tests.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the Donald Mathew S file for details.
 
