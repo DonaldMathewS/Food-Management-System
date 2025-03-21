@@ -67,19 +67,18 @@ We welcome contributions! Please fork the repository and submit a pull request w
 License
 This project is licensed under the MIT License. See the Donald Mathew S file for details.
 
-## add to start the program
-# Backend .......
+# add to start the program
+## Backend .......
 * Mango DB URL -> Config file->DB.js
   
 ```
 $ ADD YOUR MANGO DB URL
-
 ```
 * Strip key ->secret->key.js
 ```
 $ ADD YOUR Strip key
 ```
-# Frontend........
+## Frontend........
 
 * src ->service->axiosInstance.js
   
