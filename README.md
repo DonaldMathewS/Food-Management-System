@@ -76,7 +76,6 @@ $ ADD YOUR MANGO DB URL
 
 ```
 * Strip key ->secret->key.js
-* 
 ```
 $ ADD YOUR Strip key
 ```
@@ -86,7 +85,6 @@ $ ADD YOUR Strip key
   
 ```
 $ ADD YOUR BACKEND URL
-
 ```
 
 
