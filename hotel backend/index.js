@@ -14,17 +14,6 @@ const { tokenv } = require("./middleware/verfiy");
 const { connectDB } = require("./config/DB.js");
 
 connectDB();
-// mongoose
-//   .connect(
-//     "mongodb+srv://srdonald111:admin@cluster0.a4rfg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-//   )
-//   .then(() => {
-//     console.log(" DB connected ");
-//   })
-//   .catch((err) => {
-//     console.log("error:", err);
-//   });
-
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json({ limit: "10000000" }));
